@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribble-signin</title>
+    <link rel="stylesheet" href="sign-in.css">
+</head>
+<body>
+    <header>
+    <h1>Dribble</h1>
+    <div class="content">
+    <div class="sign">
+        <p>Build your design career with Dribble Pro</p>
+    </div>
+    </header>
+    <main>
+        <div class="goggle"> 
+        <img src="Google_Icons-09-512.webp" alt="google">
+        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwib0Oed6puJAxXTVkEAHfLYA6cQPAgI">Sign in with Goggle</a> 
+    </div>
+            <p>or</p>
+    <div class="goggle">
+        <a href="email">Sign in with email</a>
+    </div>
+    <form method="post" onsubmit="return verifyPsw()">
+     <div class="input">
+        <label for="username">Username</label>
+        <br>
+        <input type="text" id="username" name="username" required> 
+        <br>
+        <label for="password" >Password</label>
+        <br>
+        <input type="password" placeholder="8+ character" id="psw" name="myInput" required>
+        <span id="message"></span>
+        <input type="submit" value="Submit" >
+    </div>
+    </form>
+    </main>
+<footer>
+    <div class="lastlink">
+    <a href="">Forgot password</a> 
+<p>Not a member? <a href="sign up.html">Sign Up</a></p>
+ <a href="Dribble.html">Home</a>
+    </div>
+</footer>
+</div>
+     <script src="signin.js"></script>   
+</body>
